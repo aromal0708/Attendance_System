@@ -104,7 +104,7 @@ while True:
         cv2.imshow("Face Cropper", face)
 
     else:
-        print("Face not found !!")
+        print("Collecting Samples")
         pass
 
     if cv2.waitKey(1) == 13 or count == 150:
